@@ -18,7 +18,7 @@
 session_start();
 
 /* Inlude configuration file */
-include 'config.php';
+include 'configuration.php';
 
 /* Create instance of class */
 $HG = new HGAccounts($salt, $client_id, $client_id_secret, $service_root_url);
